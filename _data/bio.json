@@ -29,23 +29,30 @@
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": ["Arduino", "TI MSP430"]
+      "name": "Linux",
+      "keywords": ["Ubuntu", "CentOS"]
     },
     {
-      "name": "data mining",
-      "keywords": []
+      "name": "3D Printing",
+      "keywords": ["CAD"]
     },
     {
-      "name": "artificial intelligence",
-      "keywords": []
+      "name": "Home Automation",
+      "keywords": ["homeassistant"]
     }
   ],
   "skills": [
     {
       "name": "Languages and Frameworks",
       "level": "",
-      "keywords": ["C", "C++", "Java", "Javascript", "Assembly", "Common Lisp"]
+      "keywords": [
+        "Javascript",
+        "C++",
+        "Java",
+        "Javascript",
+        "Assembly",
+        "Common Lisp"
+      ]
     },
     {
       "name": "Toolsets/OS",
