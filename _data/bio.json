@@ -3,9 +3,8 @@
     "name": "Colton Dick",
     "label": "Senior Linux Engineer",
     "picture": "https://coltondick.github.io/images/profile.png",
-    "email": "",
     "phone": "",
-    "website": "https://coltondick.github.io",
+    "website": "https://coltondick.com",
     "summary": "Experienced DevOps Engineer with a track record of success in the information technology industry.",
     "location": {
       "address": "",
@@ -22,22 +21,22 @@
       },
       {
         "network": "linkedin",
-        "username": "coltondi",
-        "url": "http://linkedin.com/in/coltondi"
+        "username": "coltdi",
+        "url": "http://linkedin.com/in/coltdi"
       }
     ]
   },
   "interests": [
     {
-      "name": "Linux",
+      "name": "linux administration",
       "keywords": ["Ubuntu", "CentOS"]
     },
     {
-      "name": "3D Printing",
+      "name": "3D printing",
       "keywords": ["CAD"]
     },
     {
-      "name": "Home Automation",
+      "name": "home automation",
       "keywords": ["homeassistant"]
     }
   ],
