@@ -1,14 +1,17 @@
-<!-- Used by all builtin themes. Now we list number of essays and projects. -->
 
 {% assign current = page.url | downcase | split: '/' %}
-<div class="nonprintable">
-  <nav class="ui stackable menu">
-    <a href="{{ site.baseurl}}/" class="brand item">
-      <img
-        class="ui avatar image"
-        src="{{ site.data.bio.basics.picture }}"
-      /><span>{{ site.data.bio.basics.name }}</span>
-    </a>
-    <a href="{{ site.baseurl }}/resume" class=" {% if current[1] == "resume" %} active {% endif %} item">Resume</a>
-  </nav>
-</div>
+<header id="luxbar" class="luxbar-fixed">
+    <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+    <div class="luxbar-menu luxbar-menu-left luxbar-menu-nordic">
+        <ul class="luxbar-navigation">
+            <li class="luxbar-header">
+                <a href="{{ site.baseurl}}/" class="luxbar-brand">
+                    <img src="{{ site.baseurl}}/assets/images/home.png" alt="Home" /> 
+                  </a>
+                <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+            </li>
+            <li class="luxbar-item {% if current[1] == "resume" %} active {% endif %}""><a href="{{ site.baseurl }}/resume" ">Resume</a></li>
+        </ul>
+    </div>
+</header>
