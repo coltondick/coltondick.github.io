@@ -42,7 +42,6 @@ sidebar:
 
     - item: Home Automation
       link:
-
 # career-profile:
 #   title: Career Profile
 #   summary: |
@@ -184,4 +183,4 @@ sidebar:
 #     - name: Sketch & Photoshop
 #       level: 60%
 
-footer: >
+# footer: >

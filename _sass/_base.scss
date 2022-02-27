@@ -33,6 +33,10 @@ p {
   line-height: 1.5;
 }
 
+.page-container {
+  padding-top: 50px;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
@@ -77,6 +81,7 @@ p {
 
   .avatar {
     //used for profile image
+    background-color: $smoky-white;
     max-width: 100px;
     margin-bottom: 15px;
     border: 0px solid #fff;

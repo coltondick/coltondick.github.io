@@ -12,12 +12,15 @@ layout: compress
   {% include resume-head.html %}
 
   <body>
-    <div class="wrapper">
-      {% include resume-sidebar.html %}
+    {% include menubar.html %}
+    <div class="page-container">
+      <div class="wrapper">
+        {% include resume-sidebar.html %}
 
-      <div class="main-wrapper">{{ content }}</div>
+        <div class="main-wrapper">{{ content }}</div>
+      </div>
+
+      {% include footer.html %} {% include resume-scripts.html %}
     </div>
-
-    {% include footer.html %} {% include resume-scripts.html %}
   </body>
 </html>

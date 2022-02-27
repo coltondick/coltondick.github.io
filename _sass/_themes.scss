@@ -1,0 +1,39 @@
+/******* color variables *******/
+$nordic-bg: #4c566a;
+$nordic-hl: #2e3440;
+$nordic-fg: #eceff4;
+
+/******* default nordic *******/
+.luxbar-menu-nordic,
+.luxbar-menu-nordic .dropdown ul {
+  background-color: $nordic-bg;
+  color: $nordic-fg;
+}
+
+.luxbar-menu-nordic {
+  .active,
+  .luxbar-item:hover {
+    background-color: $nordic-hl;
+  }
+
+  .luxbar-hamburger {
+    span,
+    span::before,
+    span::after {
+      background-color: $nordic-fg;
+    }
+  }
+}
+
+.ui.avatar.image {
+  margin-right: 0.25em;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  border-radius: 500rem;
+}
+
+.luxbar-item > a,
+.luxbar-menu > a {
+  font-family: inherit;
+}
