@@ -1,6 +1,7 @@
 ---
 # Provide front matter so Jekyll processes this file as SASS.
 ---
+
 @charset "utf-8";
 
 // Default CSS.
@@ -21,11 +22,14 @@ body {
   color: darken(silver, 40%);
 }
 
-
 // Prefer space between list items in screen mode.
 .list-padding {
-  ul li { padding: 5px 0px; }
-  ol li { padding: 5px 0px; }
+  ul li {
+    padding: 5px 0px;
+  }
+  ol li {
+    padding: 5px 0px;
+  }
 }
 
 // This class is used in the prebuilt bio themes.
