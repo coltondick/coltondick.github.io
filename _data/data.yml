@@ -1,6 +1,14 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
+email: contact@coltondick.com
+profiles:
+  - network: github
+    username: coltondick
+    url: http://github.com/coltondick
+  - network: linkedin
+    username: coltdi
+    url: http://linkedin.com/in/coltdi
 
 sidebar:
   about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
