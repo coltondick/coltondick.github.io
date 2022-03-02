@@ -28,8 +28,13 @@ compress-site: yes
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/
   clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: []
   ignore:
-    envs: development
+  envs: []
+  blanklines: false
+  profile: false
+  startings: []
 
 # Development Settings
 port: 4001
