@@ -1,7 +1,7 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-email: contact@coltondick.com
+email: hello@coltondick.com
 profiles:
   - network: github
     username: coltondick
